@@ -1,0 +1,3 @@
+.topbar a {
+  @apply text-[var(--topbar-link-text)] hover:text-[var(--topbar-link-hover-text)];
+}

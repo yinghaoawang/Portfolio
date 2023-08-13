@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { createBrowserRouter, json, RouterProvider } from 'react-router-dom';
-import './index.css';
+import './assets/styles';
 import Root from './routes/Root';
 import ErrorPage from './routes/ErrorPage';
 import GoFundMe from './routes/GoFundMe';

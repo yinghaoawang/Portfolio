@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-[var(--main-text)] bg-[var(--main-bg)];
+}
+
+a {
+  @apply text-[var(--link-text)] hover:text-[var(--link-hover-text)];
+}
+
+.outer-container {
+  @apply flex flex-col grow items-center bg-[var(--outer-content-bg)];
+}
+
+.inner-container {
+  @apply grow w-full max-w-[1100px] bg-[var(--main-bg)];
+}
+
+section {
+  @apply py-8;
+}
+

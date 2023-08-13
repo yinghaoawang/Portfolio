@@ -1,0 +1,28 @@
+:root {
+  --barbie-pink: #e0218a;
+  --raspberry-pink: #ed5c9b;
+  --pastel-magenta: #f18dbc;
+  --little-girl-pink: #f7b9d7;
+  --classic-rose: #facde5;
+  --white: #fff;
+  --black: #000;
+  --gray: #333;
+  --light-gray: #777;
+  --lighter-gray: #aaa;
+
+  --topbar-bg: var(--white);
+  --topbar-text: var(--black);
+  --topbar-link-text: var(--black);
+  --topbar-link-hover-text: var(--gray);
+  --footer-bg: var(--white);
+  --footer-text: var(--light-gray);
+  /* --outer-content-bg: #dd9999; */
+
+  --main-bg: var(--white);
+  --main-text: var(--black);
+  --light-text: var(--light-gray);
+  --lighter-text: var(--lighter-gray);
+
+  --link-text: #ffdfdf;
+  --link-hover-text: #ffefef;
+}

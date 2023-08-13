@@ -6,7 +6,9 @@ export default function Root() {
   return (
     <div className='min-h-screen flex flex-col'>
       <Topbar />
-      <Outlet />
+      <div className='outer-container'>
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
