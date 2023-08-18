@@ -8,7 +8,7 @@
   --black: #000;
   --gray: #333;
   --light-gray: #777;
-  --lighter-gray: #aaa;
+  --lighter-gray: #ddd;
 
   --topbar-bg: var(--white);
   --topbar-text: var(--black);
@@ -23,6 +23,10 @@
   --light-text: var(--light-gray);
   --lighter-text: var(--lighter-gray);
 
-  --link-text: #ffdfdf;
-  --link-hover-text: #ffefef;
+  --link-text: var(--raspberry-pink);
+  --link-hover-text: var(--pastel-magenta);
+}
+
+.text-light {
+  @apply text-[var(--light-text)];
 }

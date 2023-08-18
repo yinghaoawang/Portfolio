@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply box-border;
+}
+
 body {
   @apply text-[var(--main-text)] bg-[var(--main-bg)];
 }
@@ -10,15 +14,38 @@ a {
   @apply text-[var(--link-text)] hover:text-[var(--link-hover-text)];
 }
 
+.link-normal {
+  @apply text-[var(--main-text)] hover:text-[var(--main-text)];
+}
+
 .outer-container {
   @apply flex flex-col grow items-center bg-[var(--outer-content-bg)];
 }
 
 .inner-container {
-  @apply grow w-full max-w-[1100px] bg-[var(--main-bg)];
+  @apply grow w-full max-w-[1100px];
 }
 
 section {
   @apply py-8;
 }
 
+h1 {
+  @apply font-semibold text-6xl;
+}
+
+h2 {
+  @apply font-semibold text-4xl;
+}
+
+h3 {
+  @apply font-semibold text-3xl;
+}
+
+h4 {
+  @apply font-semibold text-2xl;
+}
+
+h5 {
+  @apply font-semibold;
+}

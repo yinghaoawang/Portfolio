@@ -13,7 +13,7 @@ const routes = [
     errorElement: <ErrorPage />,
     children: [
       {
-        path: 'go-fund-me',
+        path: '/',
         element: <GoFundMe />
       }
     ]
