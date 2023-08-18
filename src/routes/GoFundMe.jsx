@@ -42,12 +42,12 @@ export default function GoFundMe(props) {
             }
           ].map((data) => (
             <div className='flex flex-col gap-2'>
-              <div>
+              <div className='mb-4'>
                 <div className='flex bg-green-600 rounded-full w-10 h-10 items-center justify-center text-white font-bold text-xl'>
                   {data.id}
                 </div>
               </div>
-              <h3>{data.header}</h3>
+              <h4>{data.header}</h4>
               <p className='text-light'>{data.details}</p>
             </div>
           ))}
@@ -125,6 +125,18 @@ export default function GoFundMe(props) {
               </div>
             </a>
           ))}
+        </div>
+      </section>
+      <section className='inner-container flex justify-center'>
+        <div className='flex flex-col justify-center items-center w-[600px] text-center gap-8 mr-16'>
+          <h2 className='text-4xl'>Ready to get started? Join thousands of others today.</h2>
+          <div className='grid grid-cols-2 gap-4 w-280px'>
+            <button className='bg-green-600 py-4 px-12 rounded-full'>Start a GoFundMe</button>
+            <button className='bg-green-900 py-4 px-12 rounded-full'>How it works</button>
+          </div>
+        </div>
+        <div className='h-[360px]'>
+          <img className='h-full' src='https://d25oniaj7o2jcw.cloudfront.net/footer-flower-cta.png' />
         </div>
       </section>
     </>
