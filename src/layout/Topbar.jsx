@@ -7,7 +7,7 @@ export default function Topbar() {
         </div>
         <div className='flex items-center justify-center'>
           <a href='/'>
-            <img src='/public/logo.svg' />
+            <img src='/logo.svg' />
           </a>
         </div>
         <ul className='flex items-center justify-end gap-4'>

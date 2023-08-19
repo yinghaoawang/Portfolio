@@ -2,7 +2,7 @@ export default function GoFundMe(props) {
   return (
     <>
       <section
-        className={`w-full h-[600px] bg-cover bg-center bg-[url('/public/wallpaper.jpg')]`}
+        className={`w-full h-[600px] bg-cover bg-center bg-[url('/wallpaper.jpg')]`}
       >
         <div className='flex w-full h-full justify-center items-center flex-col gap-6'>
           <h1 className='text-center leading-tight'>
@@ -11,7 +11,7 @@ export default function GoFundMe(props) {
             for help
           </h1>
           <button className='flex shadow-xl gap-3 items-center py-4 px-6 bg-white rounded-full font-bold'>
-            <img src='/public/start-button-icon.svg' width='20px' /> Start a
+            <img src='/start-button-icon.svg' width='20px' /> Start a
             GoFundMe
           </button>
         </div>
@@ -58,7 +58,7 @@ export default function GoFundMe(props) {
         <h2 className='font-semibold mt-4 mb-10 text-4xl'>Featured topics</h2>
         <a href='#' className='grid grid-cols-2 mb-10 h-full w-full'>
           <div
-            className={`w-full py-4 px-4 h-[300px] bg-cover bg-center bg-[url('/public/homepage-banner.jpg')]`}
+            className={`w-full py-4 px-4 h-[300px] bg-cover bg-center bg-[url('/homepage-banner.jpg')]`}
           >
             <span className='bg-[var(--lighter-gray)] text-[var(--gray)] rounded-full px-2 py-1 text-sm font-semibold'>
               Urgent cause
@@ -82,7 +82,7 @@ export default function GoFundMe(props) {
       <section className='h-screen w-full bg-green-600 flex items-center justify-center'>
         <div className='inner-container text-white flex flex-col gap-5 px-20'>
           <h4 className='flex gap-2 items-center font-bold'>
-            <img className='mt-1.5' src='/public/trust-and-safty-icon.svg' />
+            <img className='mt-1.5' src='/trust-and-safty-icon.svg' />
             Trust & Safety
           </h4>
           <h2 className='font-bold'>We have your back.</h2>
@@ -121,7 +121,7 @@ export default function GoFundMe(props) {
               <div className='border-2 h-full border-green-500 flex flex-col items-center rounded-xl justify-center gap-2'>
                 <img className='h-48 mt-10' src={data.imgUrl} />
                 <h4>{data.title}</h4>
-                <img className='my-10' src='/public/arrow-desktop.svg' />
+                <img className='my-10' src='/arrow-desktop.svg' />
               </div>
             </a>
           ))}
