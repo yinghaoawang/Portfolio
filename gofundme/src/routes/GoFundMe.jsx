@@ -10,7 +10,7 @@ export default function GoFundMe(props) {
             <br />
             for help
           </h1>
-          <button className='flex shadow-xl gap-3 items-center py-4 px-6 bg-white rounded-full font-bold'>
+          <button className='flex shadow-xl gap-3 items-center py-4 px-6 bg-white text-green-600 rounded-full font-bold'>
             <img src='/start-button-icon.svg' width='20px' /> Start a
             GoFundMe
           </button>
@@ -131,8 +131,8 @@ export default function GoFundMe(props) {
         <div className='flex flex-col justify-center items-center w-[600px] text-center gap-8 mr-16'>
           <h2 className='text-4xl'>Ready to get started? Join thousands of others today.</h2>
           <div className='grid grid-cols-2 gap-4 w-280px'>
-            <button className='bg-green-600 py-4 px-12 rounded-full'>Start a GoFundMe</button>
-            <button className='bg-green-900 py-4 px-12 rounded-full'>How it works</button>
+            <button className='bg-green-600 py-4 px-12 rounded-full text-white font-semibold'>Start a GoFundMe</button>
+            <button className='bg-green-900 py-4 px-12 rounded-full text-white font-semibold'>How it works</button>
           </div>
         </div>
         <div className='h-[360px]'>
