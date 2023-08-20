@@ -67,8 +67,13 @@ const BottomFooter = () => {
       <div className='flex pb-4 bg-[var(--footer-bg)] text-[var(--footer-text)]'>
         <div className='flex flex-col items-start gap-y-4'>
           <button className='border border-[var(--lighter-gray)] rounded-md shadow-md flex px-2 py-2'>
-            <img className='my-auto object-cover w-5 h-5 rounded-full' src='/us-flag-icon.svg' />
-            <span className='ml-3'>United States<span className='mx-2'>·</span>English</span>
+            <img
+              className='my-auto object-cover w-5 h-5 rounded-full'
+              src='/us-flag-icon.svg'
+            />
+            <span className='ml-3'>
+              United States<span className='mx-2'>·</span>English
+            </span>
           </button>
           <div className='flex flex-wrap gap-x-6 gap-y-2'>
             <span className='text-gray'>©{currentYear} Yinghao Wang</span>
@@ -85,9 +90,30 @@ const BottomFooter = () => {
             ))}
           </div>
         </div>
-        <div className='shrink-0 flex w-[300px]'>
-          <div>Get it on google play</div>
-          <div>Get it on apple store</div>
+        <div className='flex flex-col justify-center gap-10'>
+          <div className='flex justify-center gap-8'>
+            {[
+              { url: '/facebook-icon.svg' },
+              { url: '/twitter-icon.svg' },
+              { url: '/youtube-icon.svg' },
+              { url: '/instagram-icon.svg' },
+              { url: '/medium-icon.svg' }
+            ].map((data) => (
+              <a href='#' className='w-6 h-6'>
+                <img className='w-full h-full' src={data.url} />
+              </a>
+            ))}
+          </div>
+          <div className='shrink-0 flex gap-2 justify-center items-center w-[300px]'>
+            <a
+              href='#'
+              className='h-[40px] w-[135px] bg-no-repeat bg-contain bg-[url("https://d25oniaj7o2jcw.cloudfront.net/img-play-store-v2.png")]'
+            ></a>
+            <a
+              href='#'
+              className='h-[40px] w-[120px] bg-no-repeat bg-contain bg-[url("https://d25oniaj7o2jcw.cloudfront.net/img-app-store-v2.png")]'
+            ></a>
+          </div>
         </div>
       </div>
     </div>
